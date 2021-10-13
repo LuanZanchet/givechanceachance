@@ -52,6 +52,12 @@ body{
   text-align: center;
 
 }
+.git{
+  position: absolute;
+  right: 5px;
+  font-size: 30px;
+  color:white;
+}
 .doubt{
   width: 50%;
   height: 68px;
