@@ -4,6 +4,14 @@
 Do you know that moment when you need to make a decision but don't know what to do? Don't decide, "Give chance a chance." How to use it? Very simple, ask a question and get a yes or no answer!
 ![](desktop.png)
 ![](mobile.png)
+## How to access
+
+
+```sh
+https://givechanceachance.netlify.app/
+```
+   [Netlify](https://givechanceachance.netlify.app/) 
+
 
 ## Installation
 
