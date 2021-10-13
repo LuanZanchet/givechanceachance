@@ -1,0 +1,165 @@
+body{
+  margin:0;
+}
+.header{
+  text-align: center;
+  font-family: 'Andada Pro', serif;
+  background-color: #7b38d8;
+  color:white;
+  padding: 10px;
+}
+.title{
+  margin: 0px;
+  font-size: 60px;
+}
+.description-section{
+  height: 300px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left{
+  width: 60%;
+  float:left;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.right{
+  width: 40%; 
+  float:right;
+  height: 300px;
+  text-align: left;
+}
+.description{
+  font-family: 'Andada Pro', serif;
+  font-size: 30px;
+  color:#696969;
+  text-align: justify;
+}
+.img{
+  max-width: 100%;
+  height: auto;
+}
+.yes-or-no{
+  width: 60%;
+  margin-left: auto;
+  margin-right:auto;
+}
+.search{
+  text-align: center;
+
+}
+.doubt{
+  width: 50%;
+  height: 68px;
+  float:left;
+  text-align: left;
+  padding-left: 2%;
+  font-size: 25px;
+  color:#696969;
+}
+.btn-search{
+  float: left;
+}
+
+button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 26px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: 'Andada Pro', serif;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #f7c2f9;
+}
+button:hover span {
+  padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.answer{
+
+    position: fixed;
+    bottom: 0;
+    background-color: #7b38d8;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+.answer-text{
+  color:white;
+  font-family: 'Andada Pro', serif;
+  font-size: 50px;
+  text-transform:uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .title{
+    margin: 0px;
+    font-size: 30px;
+  }
+  .container {
+    margin: 1em 2em;
+  }
+  .description-section{
+    height: 350px;
+  }
+  .left{
+    width: 100%;
+    height: 100%;
+    background: url('../img/3567802.jpg') no-repeat; 
+   
+    color:black;
+  }
+  
+  .description{
+    font-size: 20px;
+    color:black
+  }
+  button{
+    padding: 2%;
+    width: 70px;
+    font-size: 20px;
+  }
+  .doubt{
+    height: 40px;
+    width: 70%;
+    font-size: 12px;
+  }
+  .yes-or-no{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .right{
+    display: none;
+  }
+}
